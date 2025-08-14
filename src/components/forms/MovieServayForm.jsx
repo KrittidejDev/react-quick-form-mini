@@ -54,7 +54,7 @@ const MovieSurveyForm = ({ onSubmit }) => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(_handleSubmit)}
-        className="space-y-8 p-6 w-[50%]"
+        className="space-y-8 p-5 w-[50%] "
       >
         <div className="text-4xl font-bold text-center">Movie Survey Form</div>
         <FormField
